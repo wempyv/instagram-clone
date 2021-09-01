@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col min-h-screen">
+  <div class="flex flex-col max-h-screen">
     <Header />
     <Stories />
-    <main class="flex-1 overflow-scroll">
+    <main class="flex-1 overflow-y-scroll">
       <router-view />
     </main>
     <Footer />

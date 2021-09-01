@@ -1,5 +1,5 @@
 <template>
-  <footer class="grid grid-cols-5 bg-gray-900 rounded-t-2xl">
+  <footer class="grid grid-cols-5 bg-gray-900 rounded-t-2xl ">
     <router-link
       v-for="(route, i) in routes"
       :key="i"
