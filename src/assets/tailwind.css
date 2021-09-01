@@ -10,5 +10,5 @@ body {
 }
 
 main {
-  max-height: calc(100vh - 129px);
+  min-height: calc(100vh - 219px);
 }

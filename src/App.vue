@@ -1,7 +1,6 @@
 <template>
   <div class="flex flex-col max-h-screen">
     <Header />
-    <Stories />
     <main class="flex-1 overflow-y-scroll">
       <router-view />
     </main>
@@ -10,12 +9,10 @@
 </template>
 <script>
 import Header from "./components/Header.vue";
-import Stories from "./components/Stories.vue";
 import Footer from "./components/Footer.vue";
 export default {
   components: {
     Header,
-    Stories,
     Footer
   },
 };

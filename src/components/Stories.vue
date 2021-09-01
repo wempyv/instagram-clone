@@ -16,7 +16,7 @@
             />
           </a>
           <button
-            class="transition duration-500 absolute bottom-0 right-0 bg-blue-700 h-8 w-8 rounded-full text-white text-2xl font-semibold border-4 border-white flex justify-center items-center hover:bg-blue-900"
+            class="transition duration-500 absolute bottom-0 right-0 bg-blue-700 h-8 w-8 rounded-full text-white text-normal font-semibold border-4 border-white flex justify-center items-center hover:bg-blue-900"
           >
             +
           </button>
@@ -43,7 +43,6 @@
 </template>
 
 <script>
-import { ref } from "vue";
 import ProfileData from "../data";
 export default {
   data() {
