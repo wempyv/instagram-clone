@@ -46,6 +46,6 @@ export default [
       "https://media.suara.com/pictures/970x544/2018/05/24/51497-ceo-facebook-mark-zuckerberg.jpg",
     headerImg:
       "https://awsimages.detik.net.id/community/media/visual/2020/10/29/mark-zuckerberg-1_169.jpeg?w=700&q=90",
-    job: "Founder Faceboo",
+    job: "Founder Facebook",
   },
 ];
