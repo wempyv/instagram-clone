@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col max-h-screen">
     <Header />
-    <main class="flex-1 overflow-y-scroll">
+    <main class="flex-1 overflow-y-scroll pb-14">
       <router-view />
     </main>
     <Footer />
